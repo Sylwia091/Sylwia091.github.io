@@ -6,6 +6,8 @@ body
     font-family:  'Montserrat', sans-serif;
     font-size: 17px;
 	width: 1210px;
+	margin-right: auto;
+	margin-left: auto;
 }
 h1.logo
 {
@@ -142,6 +144,7 @@ footer
 	margin-top: 15px;
 	text-align: center;
 	color:black;
+	margin-bottom:20px;
 }
 .napis
 {
