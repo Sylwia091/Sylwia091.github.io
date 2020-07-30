@@ -30,7 +30,7 @@ nav
 {
 		display: inline-block;
 		margin-top: 2px;
-		margin-right: 2px;
+		margin-right: 1px;
 }
 .belka
 {
@@ -55,6 +55,11 @@ nav
 	height: 38px;
 	float: left;
 	
+}
+a.maillink
+{
+	color: darkgray;
+	text-decoration: none;
 }
 
 .linkedin
@@ -111,7 +116,9 @@ h1
 {
 	
 	background-color: #efefef;
-	width: 1300px;
+	width: 1290px;
+	margin-right: auto;
+	margin-left: 4px;
 }
 .zdjecie a 
 {
