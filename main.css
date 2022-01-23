@@ -1,3 +1,4 @@
+
 body
 {
 	margin: 0;
@@ -141,6 +142,16 @@ h1
 	margin-left: 23px;
 	margin-right: -17px;
 }
+
+.zdjecie8
+{
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 23px;
+	margin-right: -17px;
+	margin-bottom:15px;
+}
+
 .sekcjazdjec
 {
 	
@@ -186,4 +197,54 @@ footer
 {
 	margin-left: 218px;
 	margin-top: 21px;
+}
+:root {
+	--color: #fafafa;
+}
+
+ {
+	font-size: 16px;
+	font-family: 'montserrat', sans-sherif;
+	margin: 0;
+	padding: 0;
+	
+	background: #202121;
+	color: white;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loading-animation {
+	position: relative;
+	display: inline-block;
+	font-size: 5.5rem;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+	color: #383b3b;
+}
+.loading-animation::before{
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: var(--color);
+	overflow: hidden;
+	width: 0%;
+	animation: loading 3s linear ;
+	animation-fill-mode:forwards;
+	
+}
+
+
+
+@keyframes loading {
+	0% {
+		width: 0%;
+	}
+	
+	100% {
+		width: 100%;
+	}
 }
