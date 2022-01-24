@@ -93,7 +93,7 @@ h1
 .zdjecie7
 {
 	display: inline-block;
-	margin-top: 5px;
+	margin-top: -8px;
 	margin-left: 20px;
 	margin-right: -20px;
 	margin-bottom:0px;
@@ -101,21 +101,21 @@ h1
 .zdjecie
 {
 	display: inline-block;
-	margin-top: 3px;
+	margin-top: -2px;
 	margin-left: 21px;
 	margin-right: -21px;
 }
 .zdjecie2
 {
 	display: inline-block;
-	margin-top: 3px;
+	margin-top: 0px;
 	margin-left: 23px;
 	margin-right: -19px;
 }
 .zdjecie3
 {
 	display: inline-block;
-	margin-top: 3px;
+	margin-top: 2px;
 	margin-left: 23px;
 	margin-right: -17px;
 	margin-bottom:15px;
@@ -130,7 +130,7 @@ h1
 .zdjecie5
 {
 	display: inline-block;
-	margin-top: 3px;
+	margin-top: 7px;
 	margin-left: 23px;
 	margin-right: -17px;
 	margin-bottom:15px;
@@ -146,12 +146,35 @@ h1
 .zdjecie8
 {
 	display: inline-block;
-	margin-top: 3px;
+	margin-top: 5px;
 	margin-left: 23px;
 	margin-right: -17px;
 	margin-bottom:15px;
 }
 
+.zdjecie9
+{
+	display: inline-block;
+	margin-top: -8px;
+	margin-left: 23px;
+	margin-right: -17px;
+	margin-bottom:15px;
+}
+.zdjecie10
+{
+	display: inline-block;
+	margin-top: -8px;
+	margin-left: 24px;
+	margin-right: -18px;
+	margin-bottom:0px;
+}
+.zdjecie11
+{
+	display: inline-block;
+	margin-top: 4px;
+	margin-left: 26px;
+	margin-right: -21px;
+}
 .sekcjazdjec
 {
 	
